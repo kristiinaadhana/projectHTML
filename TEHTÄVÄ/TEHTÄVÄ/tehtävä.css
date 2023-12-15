@@ -1,0 +1,120 @@
+body {
+    font-family: "GreatVibes", "sans-serif";
+    background-color: rgba(136, 59, 28, 0.32);
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+@font-face {
+    font-family: "GreatVibes", "sans-serif";
+    src: url("KUVAT/GreatVibes-Regular.ttf") format("truetype");
+}
+
+html {
+    font-family: 'GreatVibes', sans-serif;
+}
+
+header {
+    background-color: pink;
+    padding: 0.7%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li.logo {
+    order: -1;
+}
+
+nav li.logo img {
+    display: block;
+}
+
+nav li a {
+    background-color: pink;
+    color: floralwhite;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+nav li a:hover {
+    color: deeppink;
+}
+
+li {
+    display: inline;
+}
+
+h1 {
+    width: 100%;
+    color: rgba(239, 53, 157, 0.65);
+}
+
+section img {
+    display: block;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.container {
+    margin-top: 180px;
+}
+
+.vika {
+    color: white;
+}
+
+.footer {
+    margin: 50px 50px 50px 50px;
+    font-family: "GreatVibes", "sans-serif";
+}
+
+footer {
+    font-family: "GreatVibes", "sans-serif";
+    text-align: left;
+    padding: 0.1px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: pink;
+    color: black;
+}
+
+.vika {
+    font-family: "GreatVibes", "sans-serif";
+    color: deeppink;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
